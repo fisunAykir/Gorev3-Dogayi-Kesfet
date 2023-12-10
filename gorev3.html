@@ -1,0 +1,465 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link href="bootstrap.css" rel="stylesheet" />
+
+    <style>
+
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+       
+        .foto {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .foto img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .foto img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+    
+</head>
+
+<body>
+
+    <div class="container1 mt-5">
+
+        <h2 class="text-center mb-4">Doğayı Keşfet</h2>
+
+        <div class="gallery-container">
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/454/450/300" alt="foto1" data-toggle="modal" data-target="#modal1" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/404/450/300" alt="foto2" data-toggle="modal" data-target="#modal2" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/406/450/300" alt="foto3" data-toggle="modal" data-target="#modal3" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/412/450/300" alt="foto4" data-toggle="modal" data-target="#modal4" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/413/450/300" alt="foto5" data-toggle="modal" data-target="#modal5" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/416/450/300" alt="foto6" data-toggle="modal" data-target="#modal6" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/421/450/300" alt="foto7" data-toggle="modal" data-target="#modal7" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/423/450/300" alt="foto8" data-toggle="modal" data-target="#modal8" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/424/450/300" alt="foto9" data-toggle="modal" data-target="#modal9" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/425/450/300" alt="foto10" data-toggle="modal" data-target="#modal10" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/426/450/300" alt="foto11" data-toggle="modal" data-target="#modal11" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/427/450/300" alt="foto12" data-toggle="modal" data-target="#modal12" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/432/450/300" alt="foto13" data-toggle="modal" data-target="#modal13" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/433/450/300" alt="foto14" data-toggle="modal" data-target="#modal14" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/434/450/300" alt="foto15" data-toggle="modal" data-target="#modal15" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/400/450/300" alt="foto16" data-toggle="modal" data-target="#modal16" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/466/450/300" alt="foto17" data-toggle="modal" data-target="#modal17" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/465/450/300" alt="foto18" data-toggle="modal" data-target="#modal18" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/461/450/300" alt="foto19" data-toggle="modal" data-target="#modal19" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/459/450/300" alt="foto20" data-toggle="modal" data-target="#modal20" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/458/450/300" alt="foto21" data-toggle="modal" data-target="#modal21" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/456/450/300" alt="foto22" data-toggle="modal" data-target="#modal22" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/450/450/300" alt="foto23" data-toggle="modal" data-target="#modal23" />
+            </div>
+
+            <div class="foto">
+                <img src="https://picsum.photos/id/447/450/300" alt="foto24" data-toggle="modal" data-target="#modal24" />
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal1Label">Yolculuk Başlıyor!</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/454/450/300" alt="Yolculuk Baslıyor">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal2Label">Kuş Bakışı</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/404/450/300" alt="Kus Bakisi">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal3Label">Pusss</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/406/450/300" alt="Pus">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal4Label">MiroяorriM</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/412/450/300" alt="Mirror">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal5Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal5Label">Odak</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/413/450/300" alt="Odak">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal6Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal6Label">Gün döndü</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/416/450/300" alt="Gun Dondu">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="modal7Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal7Label">...gelgitgelgitgelgit...</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/421/450/300" alt="gelgit">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="modal8Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal8Label">Karda...</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/423/450/300" alt="Karda">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-labelledby="modal9Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal9Label">İnziva</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/424/450/300" alt="İnziva">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal10" tabindex="-1" role="dialog" aria-labelledby="modal10Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal10Label">Mola</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/425/450/300" alt="Mola">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal11" tabindex="-1" role="dialog" aria-labelledby="modal11Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal11Label">Gökyeri</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/426/450/300" alt="Gokyeri">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal12" tabindex="-1" role="dialog" aria-labelledby="modal12Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal12Label">Esiyor:)</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/427/450/300" alt="Esiyor">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal13" tabindex="-1" role="dialog" aria-labelledby="modal13Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal13Label">İZ</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/432/450/300" alt="iz">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal14" tabindex="-1" role="dialog" aria-labelledby="modal14Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal14Label">Karşılaşmalar</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/433/450/300" alt="karsilasmalar">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal15" tabindex="-1" role="dialog" aria-labelledby="modal15Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal15Label">ile</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/434/450/300" alt="ile">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal16" tabindex="-1" role="dialog" aria-labelledby="modal16Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal16Label">drop</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/400/450/300" alt="drop">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal17" tabindex="-1" role="dialog" aria-labelledby="modal17Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal17Label">Serinlik</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/466/450/300" alt="serinlik">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal18" tabindex="-1" role="dialog" aria-labelledby="modal18Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal18Label">half</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/465/450/300" alt="half">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal19" tabindex="-1" role="dialog" aria-labelledby="modal19Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal19Label">Denize doğru</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/461/450/300" alt="Denize dogru">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal20" tabindex="-1" role="dialog" aria-labelledby="modal20Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal20Label">Mercek</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/459/450/300" alt="Mercek">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal21" tabindex="-1" role="dialog" aria-labelledby="modal21Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal21Label">Yol Açık</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/458/450/300" alt="Yol acik">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal22" tabindex="-1" role="dialog" aria-labelledby="modal22Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal22Label">de ki işte</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/456/450/300" alt="de ki iste">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal23" tabindex="-1" role="dialog" aria-labelledby="modal23Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal23Label">Ardından</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/450/450/300" alt="ardından">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal24" tabindex="-1" role="dialog" aria-labelledby="modal24Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal24Label">Varış Noktası</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="https://picsum.photos/id/447/450/300" alt="Varis noktasi">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <link href="bootstrap.js" rel="stylesheet" />
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
